@@ -8,7 +8,7 @@
             while ($counter <= $input) {
               if ($counter % 15 == 0 )
               {
-              array_push($array, "PINGPONG");
+                array_push($array, "PINGPONG");
               }
               elseif ($counter % 5 == 0)
               {
@@ -16,7 +16,7 @@
               }
               elseif ($counter % 3 == 0 )
               {
-              array_push($array, "PING");
+                array_push($array, "PING");
               }
               else
               {
